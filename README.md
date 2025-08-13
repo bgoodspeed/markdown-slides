@@ -1,3 +1,31 @@
+# bg fork install instructions:
+
+create a venv if you want: 
+```
+python -m venv ~/venvs/mdslides-bg
+source ~/venvs/mdslides-bg/bin/activate 
+```
+
+do the install
+```
+pip install git+https://github.com/bgoodspeed/markdown-slides.git
+```
+
+## now line numbers work in code blocks:
+
+```
+\`\`\`js [123: 1-2|3|4]
+let a = 1;
+let b = 2;
+let c = x => 1 + 2 + x;
+c(3);
+\`\`\`
+```
+
+
+# original readme below:
+
+
 ![logo](logos/wide.png)
 
 **Using markdown, write simple but beautiful presentations with math,
