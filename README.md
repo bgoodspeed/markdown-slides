@@ -11,16 +11,15 @@ do the install
 pip install git+https://github.com/bgoodspeed/markdown-slides.git
 ```
 
-## now line numbers work in code blocks:
-
-```
-\`\`\`js [123: 1-2|3|4]
+## now starting line numbers work in code blocks:
+~~~
+```js [123: 1-2|3|4]
 let a = 1;
 let b = 2;
 let c = x => 1 + 2 + x;
 c(3);
-\`\`\`
 ```
+~~~
 
 
 # original readme below:
