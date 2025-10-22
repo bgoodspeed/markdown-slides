@@ -48,7 +48,7 @@ Use markdown to harness the power of Reveal.js.
 
 Code syntax highlighting and animations:
 
-```js [1-2|3|4]
+```js [123: 1-2|3|4]
 let a = 1;
 let b = 2;
 let c = x => 1 + 2 + x;
